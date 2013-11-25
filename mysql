@@ -361,8 +361,8 @@ sub collect_data {
 
     update_variables($dbh);
     update_innodb($dbh);
-    update_master($dbh);
-    update_slave($dbh);
+    #update_master($dbh);
+    #update_slave($dbh);
     update_process_list($dbh);
 }
 
